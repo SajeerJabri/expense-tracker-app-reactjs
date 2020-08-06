@@ -1,0 +1,31 @@
+.transaction h4{
+    margin: 10px;
+}
+.trans-form{
+    margin-top: 15px;
+}
+.trans-form input{
+    width: 100%;
+    padding: 8px 20px;
+    border-radius: 5px;
+    display: block;
+    margin: 10px;
+    border: none;
+    box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.75);
+    
+}
+.trans-form input::placeholder{
+    letter-spacing: 1.5px;
+}
+.trans-form .input-btn{
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #966868;
+    cursor: pointer;
+    padding: 15px 15px;
+}
+.trans-form label{
+    font-weight: 500;
+    font-size: 15px;
+}

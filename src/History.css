@@ -1,0 +1,47 @@
+.history h4{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.history-details{
+    height: 30px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    margin: 6px 0;
+    list-style: none;
+}
+.history-details .fa-times{
+    padding: 1px;
+    float: left;
+    margin: 6px 3px;
+    color: #fff;
+    background: red;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.3s;
+}
+.history-details:hover .fa-times{
+    opacity: 1;
+}
+.history-details .items{
+    padding: 4px 12px;
+    float: left;
+    font-size: 13px;
+    font-weight: 500;
+    color: #484148;
+}
+.history-details .price{
+    padding: 4px 10px;
+    float: right;
+    font-size: 13px;
+    font-weight: 500;
+    color: #9a3415f7;
+}
+.minus{
+    border-right: 6px solid red;
+    border-radius: 6px;
+}
+.plus{
+    border-right: 6px solid rgb(27, 214, 27);
+    border-radius: 6px;
+}
